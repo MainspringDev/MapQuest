@@ -1,0 +1,25 @@
+{
+  "name": "MainspringDev/MapQuest",
+  "description": "MapQuest API tools",
+  "authors": [
+    {
+      "name": "Mainspring Development"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.4",
+    "friendsofphp/php-cs-fixer": "^1.11",
+    "phpmetrics/phpmetrics": "^1.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "MainspringDev\\MapQuest\\": "src/",
+      "MainspringDev\\MapQuest\\Test\\": "test/"
+    }
+  }
+}
